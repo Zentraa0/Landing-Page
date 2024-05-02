@@ -1,0 +1,248 @@
+.container{
+    font-family: "Poppins",sans-serif;
+}
+header,main{
+    padding: 0 50px;
+    background-color: #fcfcff; 
+}
+.nav-logo{
+    margin: 30px 0;
+    width: 140px;
+    height: 40px;
+}
+.nav-tags{
+    text-align: center;
+    margin: 40px auto 36px;
+    width: 72%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}  
+.nav-tags a{
+    opacity: 0.7;
+    color: #202142;
+    padding: 10px 15px;
+}
+.nav-tags a:first-child{
+    opacity: 1;
+    color: #202142;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #f1f1fd;
+    border-radius: 32px;
+}
+.nav-tags a:not(:first-child):hover{
+    background-color: #f1f1fd;
+    opacity: 1;
+    color: #202142;
+    padding: 10px 15px;
+    border-radius: 32px;
+}
+.nav-buttons{
+    margin: 35px 0 30px 0;
+}
+.log-in{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202142;
+    margin-right: 28px;
+}
+.sign-up:hover{
+    background-color: #6868ff;
+    color: #fff;
+}
+.sign-up{
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+/* MAIN */
+main{
+    border-top: 1px solid #efefff;
+    height: 427px;
+}
+.day{
+    width: 106px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #ff6a95;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fff;
+}
+.main-text{
+    color: #202142;
+}
+.main-text p:first-child{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    width: 341px;
+    margin: 20px auto 16px;
+}
+.main-text p:last-child{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    width: 580px;
+    margin: 0 auto 38px;
+}
+.main-input{
+    margin: 0 auto;
+    border: 1px solid #efefff;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 651px;
+    height: 74px;
+    box-shadow: 0px 16px 35px -15px rgba(2, 5, 132, 0.15);
+}
+.main-input select{
+    border: none;
+}
+.main-input input{
+    outline: none;
+}
+.select{
+    width: 165px;
+    padding: 20px 15px;
+    margin: 10px;
+    text-align: center;
+    border-right: 1px solid #efefff;
+    color: #000;
+}
+.select p{
+    font-size: 16px;
+    line-height: 20.08px;
+    font-weight: 600;
+}
+.search{
+    font-size: 20px;
+    line-height: 20.08px;
+    font-weight: 600;
+    margin-top: 25px;
+    padding-right: 115px;
+}
+.search i{
+    display: inline-block;
+    color: #202142;
+    width: 34px;
+    height: 34px;
+    font-size: 22px;
+    opacity: 0.7;
+}
+/* SECTION */
+.sec-head{
+    margin-top: 40px;
+}
+.sec-btns{
+    margin-left: 50px;
+    width: 236px;
+    height: 61px;
+    border-radius: 70px;
+    border: 1px solid #efefff;
+    padding: 5px;
+    background-color: #fcfcff;
+}
+.sec-btns button{
+    height: 61px;
+    border-radius: 45px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.08px;
+    opacity: 0.6;
+    background-color: #fcfcff;
+}
+.sec-btns button:first-child{
+    border-radius: 1px solid #efefef;
+    box-shadow: 0px 10px 15px -10px rgba(2, 5, 132, 0.05);
+    background-color: #fff;
+    opacity: 1;
+}
+.sec-tags{
+    text-align: center;
+    margin: 25px auto;
+    width: 64%;
+}
+.sec-tags a{
+    border-radius: 32px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #202142;
+    opacity: 0.7;
+}
+.sec-tags a:first-child{
+    border: 1px solid #efefff;
+    background-color: #fcfcff;
+    opacity: 1;
+}
+.sec-tags a:not(:first-child):hover{
+    background-color: #fcfcff;
+    border: 1px solid #efefff;
+    opacity: 1;
+}
+.sec-logos{
+    width: 365px;
+    margin:5px 15px 0 0;
+}
+.sec-logos img{
+    width: 29px;
+    height: 29px;
+}
+.sec-logo{
+    border-radius: 50%;
+    border: 1px solid #efefff;
+    background-color: #fcfcff;
+    padding: 15px;
+}
+.sec-logo:hover{
+    border: #FF6A95 1px solid;
+}
+.sec-boxes{
+    margin-top:40px;
+    margin-left: 50px;
+}
+.sec-box{
+    /* width: 425px; */
+    width: 31%;
+    margin-right: 33px;
+}
+.sec-box:last-child{
+    margin-right: 0;
+}
+
+.sec-box img{
+    width: 100%;
+}
+.box-content{
+    position: relative;
+    margin-top: 20px;
+}
+.box-content img{
+    border-radius: 50%;
+}
+.box-content p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.box-content .float-r{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.box-content .nmbr{
+    margin-right: 20px;
+}

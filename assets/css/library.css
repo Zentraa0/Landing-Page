@@ -1,0 +1,17 @@
+.bg-dark{
+    color: #fff;
+    background-color: #242e4c;
+}
+.inline-blck{
+    display: inline-block;
+}
+.float-r{
+    float: right;
+}
+.float-l{
+    float: left;
+}
+.clear-fix{
+    content: '';
+    clear: both;
+}
